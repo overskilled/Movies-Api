@@ -33,9 +33,9 @@ app.use(express.json())
 
 const secretKey = 'ouatedem237'; // To be stored securely in an env file
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3080;
 app.listen(port, () => {
-    console.log("server running on port 3000...")
+    console.log(`Connected to port ${port}...`)
 })
 
 app.get('/', (req, res) => {
