@@ -8,7 +8,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: 'https://express-server-r2d3c48jm-overskilleds-projects.vercel.app/', // Replace with your React app's URL
+    origin: 'http://localhost:5173', // Replace with your React app's URL
     methods: ['GET', 'POST'], // Specify allowed methods
     allowedHeaders: ['Content-Type'], // Specify allowed headers
 }));    
